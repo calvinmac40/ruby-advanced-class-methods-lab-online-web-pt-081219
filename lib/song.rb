@@ -6,17 +6,17 @@ class Song
     @@all
   end
   
-  def create=(name)
-    @create = name
+  def save=(name)
+    @save = name
     @@all << self
   end
   
-  def create(name)
-    @create = name
+  def save(name)
+    @save = name
   end
   
-  def create
-    @create
+  def save
+    @save
   end
   
   def save

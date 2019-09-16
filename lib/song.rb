@@ -5,6 +5,11 @@ class Song
   def self.all
     @@all
   end
+  
+  def create(name)
+    @create = name
+    @@all << self
+  end
 
   def save
     self.class.all << self

@@ -7,7 +7,7 @@ class Song
   end
   
   def create
-    @create = @@all << self
+    @create
   end
   
   

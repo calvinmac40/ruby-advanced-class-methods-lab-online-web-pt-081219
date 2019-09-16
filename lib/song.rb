@@ -8,6 +8,7 @@ class Song
   
   def create=(name)
     @create = name
+    
   end
   
   def create(name)

@@ -12,6 +12,11 @@ class Song
     new_song
   end
   
+  def self.new_by_name(blank_space)
+      
+  end
+
+  
   
   def save
     self.class.all << self

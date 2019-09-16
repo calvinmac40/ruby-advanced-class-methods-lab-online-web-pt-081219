@@ -34,7 +34,7 @@ class Song
     self.create_by_name(song_name)
   end
   
-  def self.alphabetical(song_name)
+  def self.alphabetical
     @@all.sort_by! {|song| song.name}
   end
   

@@ -6,18 +6,10 @@ class Song
     @@all
   end
   
-  def save=(name)
-    @save = name
-    @@all << self
+  def create
+    @create = @@all << self
   end
   
-  def save(name)
-    @save = name
-  end
-  
-  def save
-    @save
-  end
   
   def save
     self.class.all << self

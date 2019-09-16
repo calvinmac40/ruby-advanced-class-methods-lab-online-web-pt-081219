@@ -12,7 +12,8 @@ class Song
     new_song
   end
   
-  def self.new_by_name(blank_space)
+  def self.new_by_name=(blank_space)
+    
       
   end
 
